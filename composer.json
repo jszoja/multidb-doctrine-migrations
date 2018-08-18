@@ -1,0 +1,11 @@
+{
+    "require": {
+        "doctrine/migrations": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendors\\":        "vendors/"
+        }
+    }
+	
+}

@@ -1,6 +1,12 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jszoja/migrations"
+        }
+    ],
     "require": {
-        "doctrine/migrations": "1.5.*"
+        "doctrine/migrations": "dev-multidb"
     },
     "autoload": {
         "psr-4": {

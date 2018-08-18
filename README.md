@@ -9,7 +9,10 @@ There are two goals of this project:
 I placed the CustomMigration class to the vendors folder.
 All generated migrations use classe, which extends this one.
 
-I want to make it customisable in the migrations.xml.
+You can pass the full class namespace  name to migrations:generate:
+```
+vendor/bin/doctrine-migrations migrations:generate --parent="Vendors\CustomMigration"
+```
 
 ## Multiple database migrations
 In my case each customer use its own database. I want to create the logic which will retrieve the list of all customer databases and apply migration to each of them.

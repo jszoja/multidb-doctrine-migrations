@@ -30,7 +30,7 @@ use Doctrine\DBAL\Migrations\AbstractMigration;
  * @since       2.0
  * @author      Jonathan H. Wage <jonwage@gmail.com>
  */
-abstract class WorkWizeMigration extends AbstractMigration
+abstract class CustomMigration extends AbstractMigration
 {
 
 	protected function globalSql() {
